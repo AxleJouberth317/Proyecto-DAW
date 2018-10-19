@@ -1,0 +1,8 @@
+Instalar Node.js v8.12
+y Angular CLI : https://angular.io/guide/quickstart
+
+
+IDE: https://code.visualstudio.com/
+
+ya en el ide abres el workspace
+ que es la carpeta Galley-Karloman
