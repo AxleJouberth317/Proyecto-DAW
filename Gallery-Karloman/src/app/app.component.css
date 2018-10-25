@@ -5,3 +5,11 @@ h1 {
   font-family: 'Mali', cursive;
   font-size: 300%;
 }
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+}
