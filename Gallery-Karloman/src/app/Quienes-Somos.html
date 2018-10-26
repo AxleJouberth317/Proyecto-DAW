@@ -4,32 +4,85 @@
     <meta charset="utf-8" />    
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link rel ="stylesheet" type="text/css" href="app.component.css" />
-    <title>Galería Karloman Villota - ¿Quiénes Somos?</title>
-    <img src = "https://via.placeholder.com/150"/>
-    <h1>¿Quiénes Somos?</h1>
+    <title>¿Quiénes Somos?</title>
   </head>
   <body>
-    <nav id="Menu">
-      <ul>
-        <li>
-          <a href="./app.component.html">Inicio</a>
-        </li>
-        <li>
-          <a href="./Obras.html">Obras</a>
-        </li>
-        <li>
-          <a href="./Noticias.html">Noticias</a>
-        </li>
-        <li>
-          <a href="/">¿Quiénes somos?</a>
-        </li>
-        <li>
-          <a href="./Contactos.html">Contáctenos</a>
-        </li>
-      </ul>
-      <form>
-        <input type="text" name="buscar" value="Buscar">
-      </form>
+    <header id="top">
+      <img src = "https://via.placeholder.com/100"/>
+        <h1>Bienvenidos a Galeria Karloman </h1>     
+    </header>
+    <nav>
+      <div id="menu">
+        <ul>
+          <li>
+            <a href="./app.component.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./Obras.html">Obras</a>
+          </li>
+          <li>
+            <a href="./Noticias.html">Noticias</a>
+          </li>
+          <li>
+            <a href="/">Quiénes somos</a>
+          </li>
+          <li>
+            <a href="./Contactos.html">Contáctenos</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+    <section id="search">
+      <form>
+          <input type="text" placeholder="Buscar.." name="buscar">
+          <button type="submit">Buscar</button>
+      </form> 
+    </section>
+    <section id="¿Quienes somos?">
+      <h2>¿Quienes somos?</h2>
+      <article id="miembro 1">
+            <header id="nombre 1">
+              <h3 >Nombre</h3>
+            </header>
+            <img src="https://via.placeholder.com/150x150" alt="placeholder" />
+            <p>Datos personales</p>
+      </article>
+      <article id="miembro 1">
+            <header id="nombre 1">
+              <h3 >Nombre</h3>
+            </header>
+            <img src="https://via.placeholder.com/150x150" alt="placeholder" />
+            <p>Datos personales</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>¿Que hacemos?</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut congue ipsum, in tempus urna. Morbi porta nulla neque, elementum gravida lectus convallis in. Sed vulputate vitae urna at luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla quis enim feugiat, dignissim lectus sed, faucibus dolor. Aenean euismod interdum lacus, dignissim dictum tellus dapibus in. Praesent eget ligula vel sapien bibendum sagittis. Praesent ultricies maximus dictum. Donec sagittis convallis massa congue tincidunt. Nam pulvinar ultrices nunc, vitae consectetur turpis ultrices ut.
+      Morbi pharetra viverra scelerisque. Donec consequat ultricies dolor, a tincidunt erat egestas eu. Sed tincidunt dui quis sagittis malesuada. Fusce orci elit, sodales et vestibulum fringilla, tempor euismod metus. Sed finibus ipsum at nulla efficitur, sollicitudin ornare lacus feugiat. Aliquam sit amet est massa. Nullam finibus ullamcorper dapibus. Nam sollicitudin sed diam eu tincidunt. Cras et commodo dui, eu pulvinar ipsum. Pellentesque vitae lacus sit amet urna pretium consectetur quis sed nulla. Vivamus vitae ornare mi. Fusce scelerisque ipsum odio, et consequat purus tristique vitae. Nunc venenatis mi eu viverra rhoncus. Donec tortor ligula, eleifend ac odio non, cursus iaculis diam.</p>
+      <aside>
+            <img src="https://via.placeholder.com/200x100" alt="placeholder" />
+            <img src="https://via.placeholder.com/200x100" alt="placeholder" />
+      </aside>
+    </section>
+    
+    <address>
+      <section>
+      <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+        </ul>
+        </section>
+        <section>
+            <img src="./Image/phone.png"/>
+          <p> 0985564212 </p>
+          <img src="./Image/email.png"/>
+          <p> sand_mille@hotmail.com </p>
+        </section>
+    </address>
+    <footer>
+      <p>&copy;2018 Karloman Villota. Todos los derechos reservados.</p>
+    </footer> 
   </body>
 </html>
