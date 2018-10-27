@@ -15,10 +15,18 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+.coln-3{width: 25%;}
 
 [class*="col-"] {
     float: left;
     padding: 0.2%;
+    margin: 0%;
+    border: 1px solid red;
+}
+
+[class="coln-3"]{
+	float:right;
+	padding: 0.2%;
     margin: 0%;
     border: 1px solid red;
 }

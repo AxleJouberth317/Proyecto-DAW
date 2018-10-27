@@ -4,6 +4,8 @@
     <meta charset="utf-8" />    
     <meta name="viewport" content="width=device-width, initial-scale=1">   
     <link rel ="stylesheet" type="text/css" href="css/rwd1.css" />
+    <link rel="stylesheet" type="text/css" href="css/Inicio.css">
+
     <title>Galería Karloman Villota - Inicio</title>
   </head>
   <body>
@@ -12,8 +14,8 @@
       	<h1 class="col-11">Bienvenidos a Galeria Karloman </h1>     
     </header>
     <nav class="col-12">
-      <div id="menu">
-        <ul class="col-4">
+      <div id="menu" class="col-10">
+        <ul class="col-12">
             <li>Inicio</li> 
             <li>Obras</li> 
             <li>Noticias</li> 
@@ -21,57 +23,61 @@
             <li>Contactenos</li>
         </ul>
       </div>
-    </nav>
-    <section id="search">
-      <form>
+      <form class="col-2">
           <input type="text" placeholder="Buscar.." name="busar">
           <button type="submit">Buscar</button>
       </form> 
+    </nav>
+    
+    <section id="slide" class="col-12">
+    	<img src = "https://via.placeholder.com/1300x500" class="col-12"/>
+    	<h2 class="coln-3">Obras</h2>       
     </section>
-    <section id="slide">
-    	<img src = "https://via.placeholder.com/1300x500"/>
-    	<h2>Obras</h2>       
-    </section>
-    <section id="noticias">
-    	<h2>Noticias y eventos</h2>
-    	<article id="noticia 1">
-            <header id="tit not 1">
+
+    <h2 class="col-3">Noticias y eventos</h2>
+    <section id="noticias" class="col-12">
+    	<article class="col-4" id="noticia 1">
+            <img class="col-4" src="https://via.placeholder.com/150x150" alt="placeholder" />
+            <header class="col-8" id="tit not 1">
             	<h3 >Lorem ipsum dolor sit amet</h3>
             </header>
-            <img src="https://via.placeholder.com/150x150" alt="placeholder" />
-            <p>Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
+            <p class= "col-12">Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
         </article>
-        <article id="noticia 2">
-            <header id="tit not 2">
+        <article id="noticia 2" class="col-4">
+        	<img class="col-4" src="https://via.placeholder.com/150x150" alt="placeholder" />
+            <header class="col-8" id="tit not 2">
             	<h3 >Lorem ipsum dolor sit amet</h3>
             </header>
-            <img src="https://via.placeholder.com/150x150" alt="placeholder" />
-            <p>Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
+            <p class="col-12">Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
         </article>
-        <article id="noticia 3">
-            <header id="tit not 3">
+        <article id="noticia 3" class="col-4">
+        	<img class="col-4" src="https://via.placeholder.com/150x150" alt="placeholder" />
+            <header class="col-8" id="tit not 3">
             	<h3 >Lorem ipsum dolor sit amet</h3>
             </header>
-            <img src="https://via.placeholder.com/150x150" alt="placeholder" />
-            <p>Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
+            <p class="col-12" >Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
         </article>
     </section>
-    <address>
-    	<section>
+    <address id="info" class="col-12">
+    	<section class="col-3">
     	<ul>
           <li>Facebook</li>
           <li>Twitter</li>
           <li>Instagram</li>
       	</ul>
       	</section>
-      	<section>
-      	    <img src="./Image/phone.png"/>
-      		<p> 0985564212 </p>
-      		<img src="./Image/email.png"/>
-      		<p> sand_mille@hotmail.com </p>
+      	<section id="info" class="col-6">
+      		<div class="col-6">
+      	    <img class="col-1" src="./Image/phone.png"/>
+      		<p class="col-11"> 0985564212 </p>
+      		</div>
+      		<div class="col-6">
+      		<img class="col-1" src="./Image/email.png"/>
+      		<p class="col-11"> sand_mille@hotmail.com </p>	
+      		</div>
       	</section>
     </address>
-    <footer>
+    <footer class="col-12">
     	<p>&copy;2018 Karloman Villota. Todos los derechos reservados.</p>
     </footer>  
   </body>

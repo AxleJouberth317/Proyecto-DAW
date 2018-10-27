@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Mali');
 
+body{
+	background-color: #fbf0f0;
+}
+
 h1 {
   color: 7c7575;
   font-family: 'Mali', cursive;
@@ -12,4 +16,9 @@ ul {
 
 ul li {
 	display: inline-block;
+}
+
+section#info {
+	display:inline;
+	float:right;
 }
