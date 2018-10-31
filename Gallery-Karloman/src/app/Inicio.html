@@ -3,92 +3,144 @@
   <head>
     <meta charset="utf-8" />    
     <meta name="viewport" content="width=device-width, initial-scale=1">   
-    <link rel ="stylesheet" type="text/css" href="css/rwd1.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/Inicio.css">
-
+    <link rel ="stylesheet" type="text/css" href="./css/menuPrincipal.css" />
     <title>Galería Karloman Villota - Inicio</title>
   </head>
+  
   <body>
-  	<header id="top" class="col-12">
-  		<img src = "https://via.placeholder.com/100"/ class="col-1">
-      	<h1 class="col-11">Bienvenidos a Galeria Karloman </h1>     
-    </header>
-    <nav class="col-12">
-      <div id="menu" class="col-10">
-        <ul class="col-12">
-          <li>
-            <a href="/">Inicio</a>
-          </li>
-          <li>
-            <a href="./Obras.html">Obras</a>
-          </li>
-          <li>
-            <a href="./Noticias.html">Noticias</a>
-          </li>
-          <li>
-            <a href="./Quienes-Somos.html">¿Quiénes somos?</a>
-          </li>
-          <li>
-            <a href="./Contactos.html">Contáctenos</a>
-          </li>
-        </ul>
+    <div id="container" class="container">
+      <div class="row">
+      	<header id="top" class="col-xl-12">
+          <div class="row">
+  		      <img src = "https://via.placeholder.com/100" class="col-xl-1">
+      	    <h1 class="col-xl-11">Bienvenidos a Galeria Karloman </h1>
+          </div>    
+        </header>
       </div>
-      <form class="col-2">
-          <input type="text" placeholder="Buscar.." name="busar">
-          <button type="submit">Buscar</button>
-      </form> 
-    </nav>
-    
-    <section id="slide" class="col-12">
-    	<img src = "https://via.placeholder.com/1300x500" class="col-12"/>
-    	<h2 class="coln-3">Obras</h2>       
-    </section>
 
-    <h2 class="col-3">Noticias y eventos</h2>
-    <section id="noticias" class="col-12">
-    	<article class="col-4" id="noticia 1">
-            <img class="col-4" src="https://via.placeholder.com/150x150" alt="placeholder" />
-            <header class="col-8" id="tit not 1">
-            	<h3 >Lorem ipsum dolor sit amet</h3>
-            </header>
-            <p class= "col-12">Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
-        </article>
-        <article id="noticia 2" class="col-4">
-        	<img class="col-4" src="https://via.placeholder.com/150x150" alt="placeholder" />
-            <header class="col-8" id="tit not 2">
-            	<h3 >Lorem ipsum dolor sit amet</h3>
-            </header>
-            <p class="col-12">Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
-        </article>
-        <article id="noticia 3" class="col-4">
-        	<img class="col-4" src="https://via.placeholder.com/150x150" alt="placeholder" />
-            <header class="col-8" id="tit not 3">
-            	<h3 >Lorem ipsum dolor sit amet</h3>
-            </header>
-            <p class="col-12" >Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
-        </article>
-    </section>
-    <address id="info" class="col-12">
-    	<section class="col-3">
-    	<ul>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
-      	</ul>
-      	</section>
-      	<section id="info" class="col-6">
-      		<div class="col-6">
-      	    <img class="col-1" src="./Image/phone.png"/>
-      		<p class="col-11"> 0985564212 </p>
-      		</div>
-      		<div class="col-6">
-      		<img class="col-1" src="./Image/email.png"/>
-      		<p class="col-11"> sand_mille@hotmail.com </p>	
-      		</div>
-      	</section>
-    </address>
-    <footer class="col-12">
-    	<p>&copy;2018 Karloman Villota. Todos los derechos reservados.</p>
-    </footer>  
+      <div id="menuPrincipal" class="sticky-top">
+        <nav>
+          <div id="menu" class="row">
+            <ul class="nav nav-tabs nav-fill col-xl-8">
+              <li class="nav-item list-inline-item">
+                <a class ="nav-link active" href="#">Inicio</a>
+              </li>
+              <li class="nav-item list-inline-item">
+                <a class ="nav-link" href="./Obras.html">Obras</a>
+              </li>
+              <li class="nav-item list-inline-item">
+                <a class ="nav-link" href="./Noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item list-inline-item">
+                <a class ="nav-link" href="./Quienes-Somos.html">Quiénes somos</a>
+              </li>
+              <li class="nav-item list-inline-item">
+                <a class ="nav-link" href="./Contactos.html">Contáctenos</a>
+              </li>
+            </ul>
+            <form class="form-inline col-xl-4">
+              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="buscar">
+              <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    <div class="row">
+      <section id="slide" class="col-xl-12">
+        <div class="row">
+    	   <img src = "https://via.placeholder.com/1300x500" class="col-xl-12"/>
+    	   <h2 class="col-xl-4">Obras</h2>  
+        </div>       
+      </section>
+    </div>
+
+    <div class="row">
+      <h2 class="col-xl-4">Noticias y eventos</h2>
+    </div>
+
+    <div class="row">
+      <section id="noticias" class="col-12">
+    	  
+        <div class="row">
+          <article class="col-xl-4" id="noticia 1">
+            <div class="row">
+              <img class="col-xl-4" src="https://via.placeholder.com/150x150" alt="placeholder" />
+              <header class="col-xl-8" id="tit not 1">
+            	 <h3 >Lorem ipsum dolor sit amet</h3>
+              </header>
+              <p class= "col-xl-12">Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
+            </div>
+          </article>
+
+          <article class="col-xl-4" id="noticia 1">
+            <div class="row">
+              <img class="col-xl-4" src="https://via.placeholder.com/150x150" alt="placeholder" />
+              <header class="col-xl-8" id="tit not 1">
+               <h3 >Lorem ipsum dolor sit amet</h3>
+              </header>
+              <p class= "col-xl-12">Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
+            </div>
+          </article>
+
+          <article class="col-xl-4" id="noticia 1">
+            <div class="row">
+              <img class="col-xl-4" src="https://via.placeholder.com/150x150" alt="placeholder" />
+              <header class="col-xl-8" id="tit not 1">
+               <h3 >Lorem ipsum dolor sit amet</h3>
+              </header>
+              <p class= "col-xl-12">Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="row">
+        <address id="info" class="col-xl-12">
+          <div class="row">
+    	     <section class="col-xl-4">
+    	       <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+      	     </ul>
+      	   </section>
+
+           <section id="info" class="col-xl-6">
+              <div class="row">
+                <div class="col-xl-6">
+                  <div class="row">
+                    <img class="col-xl-2" src="./Image/phone.png"/>
+                    <p class="col-xl-10"> 0985564212 </p>
+                  </div>
+                </div>
+                <div class="col-xl-6">
+                  <div class="row">
+                    <img class="col-xl-2" src="./Image/email.png"/>
+                    <p class="col-xl-10"> sand_mille@hotmail.com </p>
+                  </div>
+                </div>
+              </div>
+           </section>
+
+         </div>
+        </address>
+    </div>
+
+    <div class="row">
+      <footer class="col-xl-12">
+    	 <p>&copy;2018 Karloman Villota. Todos los derechos reservados.</p>
+      </footer>
+    </div>  
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </div>
   </body>
 </html>
