@@ -2,26 +2,33 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />    
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <link rel ="stylesheet" type="text/css" href="./css/menuPrincipal.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/Inicio.css">
+    <link rel="stylesheet" type="text/css" href="css/Obras.css">
     <link rel ="stylesheet" type="text/css" href="./css/menuPrincipal.css" />
-    <title>Galería Karloman Villota - Obras</title>
-    <img src = "https://via.placeholder.com/150"/>
-    <h1>Obras</h1>
+    <title>Galería Karloman Villota - Inicio</title>
   </head>
+  
   <body>
-    <div class="container">
-    <div id="menuPrincipal" class="sticky-top">
-        <nav>
+    <div id="container" class="container">
+      <div class="row">
+        <header id="top" class="col-xl-12">
+          <div class="row">
+            <img src = "https://via.placeholder.com/100" class="col-xl-1">
+            <h1 class="col-xl-11">Bienvenidos a Galeria Karloman </h1>
+          </div>    
+        </header>
+      </div>
+
+      <div id="menuPrincipal" class="sticky-top">
+        <nav class="col-xl-12">
           <div id="menu" class="row">
             <ul class="nav nav-tabs nav-fill col-xl-8">
               <li class="nav-item list-inline-item">
-                <a class ="nav-link" href="./Inicio.html">Inicio</a>
+                <a class ="nav-link active" href="./Inicio.html">Inicio</a>
               </li>
               <li class="nav-item list-inline-item">
-                <a class ="nav-link active" href="#">Obras</a>
+                <a class ="nav-link" href="#">Obras</a>
               </li>
               <li class="nav-item list-inline-item">
                 <a class ="nav-link" href="./Noticias.html">Noticias</a>
@@ -40,9 +47,89 @@
           </div>
         </nav>
       </div>
+
+    <div class="row">
+      <h2 class="col-xl-12">Obras</h2>  
+    </div>       
+
+
+    <div class="row">
+      <section id="dibujos" class="col-xl-12">
+        <div class="row">
+          <h3 class="col-xl-12">Dibujos</h3>
+          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
+          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
+          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
+        </div>
+      </section>
+    </div>
+
+    <div class="row">
+      <section id="pinturas" class="col-xl-12">
+        <div class="row">
+          <h3 class="col-xl-12">Pinturas</h3>
+          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
+          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
+          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
+        </div>
+      </section>
+    </div>
+
+    <div class="row">
+      <section id="artes plasticas" class="col-xl-12">
+        <div class="row">
+          <h3 class="col-xl-12">Artes plasticas</h3>
+          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
+          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
+          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
+        </div>
+      </section>
+    </div>
+ 
+
+    <div class="row">
+        <address id="info" class="col-xl-12">
+          <div class="row">
+           <section class="col-xl-4">
+             <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+             </ul>
+           </section>
+
+           <section id="info" class="col-xl-6">
+              <div class="row">
+                <div class="col-xl-6">
+                  <div class="row">
+                    <img class="col-xl-2" src="./Image/phone.png"/>
+                    <p class="col-xl-10"> 0985564212 </p>
+                  </div>
+                </div>
+                <div class="col-xl-6">
+                  <div class="row">
+                    <img class="col-xl-2" src="./Image/email.png"/>
+                    <p class="col-xl-10"> sand_mille@hotmail.com </p>
+                  </div>
+                </div>
+              </div>
+           </section>
+
+         </div>
+        </address>
+    </div>
+
+    <div class="row">
+      <footer class="col-xl-12">
+       <p>&copy;2018 Karloman Villota. Todos los derechos reservados.</p>
+      </footer>
+    </div>  
+
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </div>
   </body>
 </html>
