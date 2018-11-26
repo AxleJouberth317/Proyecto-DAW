@@ -5,6 +5,7 @@ body{
 }
 
 h1 {
+  text-align: center;
   color: 7c7575;
   font-family: 'Mali', cursive;
   font-size: 300%;
@@ -21,4 +22,12 @@ ul li {
 section#info {
 	display:inline;
 	float:right;
+}
+
+img#phone, img#email{
+	height: 50%;
+}
+
+img#autor{
+	height: 100%;
 }
