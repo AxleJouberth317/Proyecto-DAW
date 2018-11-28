@@ -4,8 +4,7 @@
     <meta charset="utf-8" />    
     <meta name="viewport" content="width=device-width, initial-scale=1">   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/Inicio.css">
-    <link rel ="stylesheet" type="text/css" href="./css/menuPrincipal.css" />
+    <link rel="stylesheet" type="text/css" href="css/Principal.css" />
     <title>Galería Karloman Villota - Inicio</title>
   </head>
   
@@ -14,8 +13,8 @@
       <div class="row">
         <header id="top" class="col-xl-12">
           <div class="row">
-            <img src = "https://via.placeholder.com/100" class="col-xl-1">
-            <h1 class="col-xl-11">Bienvenidos a Galeria Karloman </h1>
+            <img src = "https://via.placeholder.com/100x75" class="col-xl-2">
+            <h1 class="col-xl-10">Bienvenidos a Galeria Karloman </h1>
           </div>    
         </header>
       </div>
@@ -28,7 +27,7 @@
                 <a class ="nav-link" href="./Inicio.html">Inicio</a>
               </li>
               <li class="nav-item list-inline-item">
-                <a class ="nav-link active" href="#">Obras</a>
+                <a class ="nav-link" href="./Obras.html">Obras</a>
               </li>
               <li class="nav-item list-inline-item">
                 <a class ="nav-link" href="./Noticias.html">Noticias</a>
@@ -37,7 +36,7 @@
                 <a class ="nav-link" href="./Quienes-Somos.html">Quiénes somos</a>
               </li>
               <li class="nav-item list-inline-item">
-                <a class ="nav-link" href="./Contactos.html">Contáctenos</a>
+                <a class ="nav-link active" href="#">Contáctenos</a>
               </li>
             </ul>
             <form class="form-inline col-xl-4">
@@ -49,43 +48,54 @@
       </div>
 
     <div class="row">
-      <h2 class="col-xl-12">Obras</h2>  
-    </div>       
+      <h2 class="col-xl-12">Contactos</h2>  
+    </div>
 
 
     <div class="row">
-      <section id="dibujos" class="col-xl-12">
-        <div class="row">
-          <h3 class="col-xl-12">Dibujos</h3>
-          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
-          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
-          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
-        </div>
+      <section class="col-xl-9">               
+        <form id="noticias" class="col-xl-12">
+          <div class="row">
+            <p class="col-xl-6">Nombres:</p>
+            <p class="col-xl-6">Apellidos:</p>
+            <input type="text" name="name" id="nombre" class="col-xl-5">
+            <input type="text" name="name" id="apellidos" class="col-xl-5">
+          </div>
+          <div class="row">
+              <p class="col-xl-12">Correo:</p>
+              <input type="text" name="name" id="correo" class="col-xl-10">
+              <p class="col-xl-12">Asunto:</p>
+              <input type="text" name="name" id="asunto" class="col-xl-10">
+              <p class="col-xl-12">Mensaje:</p>
+              <textarea name="message" rows="8"" class="col-xl-10"></textarea>              
+          </div>
+          <div class="row">
+            <input type="submit" value="Enviar mensaje">
+          </div>
+        </form>
       </section>
+
+      <aside id="recientes" class="col-xl-3">
+        <div class="row">
+          <img class="col-xl-12" src = "https://via.placeholder.com/200x300">
+        </div>              
+      </aside>
     </div>
 
     <div class="row">
-      <section id="pinturas" class="col-xl-12">
-        <div class="row">
-          <h3 class="col-xl-12">Pinturas</h3>
-          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
-          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
-          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
-        </div>
+      <h2 class="col-xl-12">Mapa</h2>
+      <img class="col-xl-5" src = "https://via.placeholder.com/150x100">
+      <section class="col-xl-7">
+        <h3 class="col-xl-12">Direccion</h3>
+        <p class="col-xl-4"> Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor</p>
       </section>
+
     </div>
 
-    <div class="row">
-      <section id="artes plasticas" class="col-xl-12">
-        <div class="row">
-          <h3 class="col-xl-12">Artes plasticas</h3>
-          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
-          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
-          <img src = "https://via.placeholder.com/150x100" class="col-xl-4">
-        </div>
-      </section>
-    </div>
- 
+
+
+
+    
 
     <div class="row">
         <address id="info" class="col-xl-12">
@@ -102,13 +112,13 @@
               <div class="row">
                 <div class="col-xl-6">
                   <div class="row">
-                    <img class="col-xl-2" src="./Image/phone.png"/>
+                    <img id="phone" class="col-xl-2" src="./Image/phone.png"/>
                     <p class="col-xl-10"> 0985564212 </p>
                   </div>
                 </div>
                 <div class="col-xl-6">
                   <div class="row">
-                    <img class="col-xl-2" src="./Image/email.png"/>
+                    <img id="email" class="col-xl-2" src="./Image/email.png"/>
                     <p class="col-xl-10"> sand_mille@hotmail.com </p>
                   </div>
                 </div>

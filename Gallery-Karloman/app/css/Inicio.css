@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+
+
+section#noticias > div{
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #dfd3d3;
+}
+
+section#noticias{
+	padding-bottom: 100px;
+}
+
+div > h2{
+	background-color:#7c7575;
+	color: white;
+
+}
+
+div#titulo1, div#titulo2{
+	margin:0px;
+}
+
+article{
+	border-right: 1pt solid black;
+	border-left: 1pt solid black;
+}
