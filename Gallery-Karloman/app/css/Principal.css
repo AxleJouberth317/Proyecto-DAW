@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Mali');
 
-div#menuPrincipal{
+div#menuPrincipal-sm,#menuPrincipal-lg{
 	background-color: #dfd3d3;
 }
 
@@ -57,5 +57,24 @@ footer > p{
 
 address#info>div{
 	padding-top:10px;
+	
+}
+
+@media (min-width: 769px){
+	#menuPrincipal-sm{
+		display:none;
+}
+
+}
+@media (max-width: 768px){
+	#phone,#email {
+		display: none;
+	}	
+	#menuPrincipal-sm{
+		display:visible;
+    }
+	header, #menuPrincipal-lg{
+		display:none;
+}
 	
 }
