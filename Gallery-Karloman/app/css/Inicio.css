@@ -13,11 +13,13 @@ section#noticias{
 	padding-bottom: 100px;
 }
 
-div > h2{
+div > h2, section > h2{
 	background-color:#7c7575;
 	color: white;
 
 }
+
+
 
 div#titulo1, div#titulo2{
 	margin:0px;
