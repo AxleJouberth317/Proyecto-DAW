@@ -1,6 +1,6 @@
 $(function(){
 
-$( "#contacto" ).validate({
+$( "#formu" ).validate({
 	rules: {
 		nombre:{
 			required:true,
@@ -9,7 +9,15 @@ $( "#contacto" ).validate({
 		apellido:{
 			required:true,
 			apellido:true,
-		}
+		},
+		correo:{
+			required:true,
+			correo:true,
+		},
+		mensaje:{
+			required:true,
+			mensaje:true,
+		},
 	
 
 	}
