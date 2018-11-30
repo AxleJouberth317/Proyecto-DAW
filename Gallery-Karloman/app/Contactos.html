@@ -55,23 +55,29 @@
 
     <div class="row">
       <section class="col-xl-9">               
-        <form id="noticias" class="col-xl-12">
+        <form id="contacto" class="col-xl-12">
           <div class="row">
-            <p class="col-xl-6">Nombres:</p>
-            <p class="col-xl-6">Apellidos:</p>
-            <input type="text" name="name" id="nombre" class="col-xl-5">
-            <input type="text" name="name" id="apellidos" class="col-xl-5">
+            <p class="col-xl-2">Nombres:</p>
+            <input type="text" name="nombre" id="nombres" class="col-xl-7">
           </div>
           <div class="row">
-              <p class="col-xl-12">Correo:</p>
-              <input type="text" name="name" id="correo" class="col-xl-10">
-              <p class="col-xl-12">Asunto:</p>
-              <input type="text" name="name" id="asunto" class="col-xl-10">
-              <p class="col-xl-12">Mensaje:</p>
-              <textarea name="message" rows="8"" class="col-xl-10"></textarea>              
+            <p class="col-xl-2">Apellidos:</p>
+            <input type="text" name="apellido" id="apellidos" class="col-xl-7">
           </div>
           <div class="row">
-            <input type="submit" value="Enviar mensaje">
+              <p class="col-xl-2">Correo:</p>
+              <input type="text" name="correo" id="correo" class="col-xl-7">
+          </div>
+          <div class="row">
+              <p class="col-xl-2">Asunto:</p>
+              <input type="text" name="asunto" id="asunto" class="col-xl-7">
+          </div>
+          <div class="row">
+              <p class="col-xl-2">Mensaje:</p>
+              <textarea name="mensaje" rows="8"" class="col-xl-7"></textarea>              
+          </div>
+          <div class="row justify-content-center">
+            <input class="col-xl-2" type="submit" value="Enviar mensaje">
           </div>
         </form>
       </section>
@@ -144,6 +150,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/mapa.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3ZPu2b4MNyavQKRVpPDVpEVRdlZys3P4&callback=myMap"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/additional-methods.js"></script>
+    <script src="js/validate.js" type="text/javascript"></script>
+
     </div>
   </body>
 </html>
